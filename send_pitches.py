@@ -12,7 +12,7 @@ from playwright.sync_api import sync_playwright
 
 # Setup dynamic paths
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-HARVEY_HOME = os.environ.get("HARVEY_HOME", os.path.expanduser("~/HARVEY"))
+HARVEY_HOME = os.environ.get("HARVEY_HOME", os.path.expanduser("~/MAKAKOO"))
 DATA_DIR = os.path.join(HARVEY_HOME, "data", "linkedin-outreach")
 STATE_FILE = os.path.join(DATA_DIR, "state.json")
 HARVEY_HOME = os.environ.get("HARVEY_HOME", os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))

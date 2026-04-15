@@ -6,7 +6,7 @@ import json
 
 SENDER_NAME = os.environ.get("SENDER_NAME", "Your Name")
 GMAIL_THREAD_ID = os.environ.get("GMAIL_THREAD_ID", "THREAD_ID_HERE")
-HARVEY_HOME = os.environ.get("HARVEY_HOME", os.path.expanduser("~/HARVEY"))
+HARVEY_HOME = os.environ.get("HARVEY_HOME", os.path.expanduser("~/MAKAKOO"))
 GWS_BIN = shutil.which("gws") or "gws"
 ATTACHMENT_PATH = os.environ.get(
     "SPS_CV_PATH",

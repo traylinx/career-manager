@@ -50,7 +50,7 @@ if __name__ == "__main__":
     import os
     import argparse
     parser = argparse.ArgumentParser(description="Modify DOCX CV profile")
-    HARVEY_HOME = os.environ.get("HARVEY_HOME", os.path.expanduser("~/HARVEY"))
+    HARVEY_HOME = os.environ.get("HARVEY_HOME", os.path.expanduser("~/MAKAKOO"))
     default_path = os.path.join(
         HARVEY_HOME, "career", "communications",
         "sps_consulting_alexandra_boyde",

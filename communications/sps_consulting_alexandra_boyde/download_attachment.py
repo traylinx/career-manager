@@ -6,7 +6,7 @@ import base64
 import sys
 import argparse
 
-HARVEY_HOME = os.environ.get("HARVEY_HOME", os.path.expanduser("~/HARVEY"))
+HARVEY_HOME = os.environ.get("HARVEY_HOME", os.path.expanduser("~/MAKAKOO"))
 GWS_BIN = shutil.which("gws") or "gws"
 
 def download_attachment(message_id: str, attachment_id: str, output_path: str):
